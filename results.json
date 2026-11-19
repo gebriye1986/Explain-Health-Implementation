@@ -1,0 +1,979 @@
+{
+  "source_commit": "430e1e7d5c87189241f1b8fd0a061eb17b42628e",
+  "python": "3.10.11",
+  "numpy": "1.26.4",
+  "scikit_learn": "1.6.1",
+  "csv_sha256": "ebbd391c4ba4d64f57a00eb3d0a55f0ca9b920b0c5de6b9af4234e72519c9618",
+  "asset_sha256": "ac1181d9d34f71c51643e82dbbc6f28d86f6b21eb7faf8ea797ecd51795577f8",
+  "asset_bytes": 354040,
+  "asset_declared_accuracy": 1.0,
+  "asset_trees": 50,
+  "raw_rows": 4920,
+  "exact_csv_duplicate_rows_after_first": 4616,
+  "eligible_rows": 4920,
+  "symptoms": 131,
+  "classes": 41,
+  "training_vocabulary_matches_export": false,
+  "different_vocabulary_positions_zero_based": [
+    {
+      "index": 32,
+      "training": "dischromic  patches",
+      "exported": "dischromic patches"
+    },
+    {
+      "index": 104,
+      "training": "spotting  urination",
+      "exported": "spotting urination"
+    }
+  ],
+  "unique_normalized_label_profile_pairs": 304,
+  "unique_normalized_symptom_profiles": 304,
+  "conflicting_normalized_profiles": 0,
+  "rows_excluded_for_label_conflicts": 0,
+  "deduplicated_class_counts": {
+    "(vertigo) Paroymsal  Positional Vertigo": 7,
+    "AIDS": 5,
+    "Acne": 5,
+    "Alcoholic hepatitis": 8,
+    "Allergy": 5,
+    "Arthritis": 6,
+    "Bronchial Asthma": 7,
+    "Cervical spondylosis": 6,
+    "Chicken pox": 10,
+    "Chronic cholestasis": 8,
+    "Common Cold": 9,
+    "Dengue": 10,
+    "Diabetes": 9,
+    "Dimorphic hemmorhoids(piles)": 6,
+    "Drug Reaction": 6,
+    "Fungal infection": 5,
+    "GERD": 7,
+    "Gastroenteritis": 5,
+    "Heart attack": 5,
+    "Hepatitis B": 9,
+    "Hepatitis C": 7,
+    "Hepatitis D": 10,
+    "Hepatitis E": 9,
+    "Hypertension": 6,
+    "Hyperthyroidism": 9,
+    "Hypoglycemia": 9,
+    "Hypothyroidism": 8,
+    "Impetigo": 6,
+    "Jaundice": 9,
+    "Malaria": 8,
+    "Migraine": 10,
+    "Osteoarthristis": 7,
+    "Paralysis (brain hemorrhage)": 5,
+    "Peptic ulcer diseae": 7,
+    "Pneumonia": 9,
+    "Psoriasis": 7,
+    "Tuberculosis": 9,
+    "Typhoid": 9,
+    "Urinary tract infection": 5,
+    "Varicose veins": 8,
+    "hepatitis A": 9
+  },
+  "class_union_distances": {
+    "0": 41,
+    "1": 263
+  },
+  "class_union_structure": [
+    {
+      "label": "(vertigo) Paroymsal  Positional Vertigo",
+      "profiles": 7,
+      "union_size": 6,
+      "distance_to_union": {
+        "0": 1,
+        "1": 6
+      }
+    },
+    {
+      "label": "AIDS",
+      "profiles": 5,
+      "union_size": 4,
+      "distance_to_union": {
+        "0": 1,
+        "1": 4
+      }
+    },
+    {
+      "label": "Acne",
+      "profiles": 5,
+      "union_size": 4,
+      "distance_to_union": {
+        "0": 1,
+        "1": 4
+      }
+    },
+    {
+      "label": "Alcoholic hepatitis",
+      "profiles": 8,
+      "union_size": 7,
+      "distance_to_union": {
+        "0": 1,
+        "1": 7
+      }
+    },
+    {
+      "label": "Allergy",
+      "profiles": 5,
+      "union_size": 4,
+      "distance_to_union": {
+        "0": 1,
+        "1": 4
+      }
+    },
+    {
+      "label": "Arthritis",
+      "profiles": 6,
+      "union_size": 5,
+      "distance_to_union": {
+        "0": 1,
+        "1": 5
+      }
+    },
+    {
+      "label": "Bronchial Asthma",
+      "profiles": 7,
+      "union_size": 6,
+      "distance_to_union": {
+        "0": 1,
+        "1": 6
+      }
+    },
+    {
+      "label": "Cervical spondylosis",
+      "profiles": 6,
+      "union_size": 5,
+      "distance_to_union": {
+        "0": 1,
+        "1": 5
+      }
+    },
+    {
+      "label": "Chicken pox",
+      "profiles": 10,
+      "union_size": 11,
+      "distance_to_union": {
+        "0": 1,
+        "1": 9
+      }
+    },
+    {
+      "label": "Chronic cholestasis",
+      "profiles": 8,
+      "union_size": 7,
+      "distance_to_union": {
+        "0": 1,
+        "1": 7
+      }
+    },
+    {
+      "label": "Common Cold",
+      "profiles": 9,
+      "union_size": 17,
+      "distance_to_union": {
+        "0": 1,
+        "1": 8
+      }
+    },
+    {
+      "label": "Dengue",
+      "profiles": 10,
+      "union_size": 14,
+      "distance_to_union": {
+        "0": 1,
+        "1": 9
+      }
+    },
+    {
+      "label": "Diabetes",
+      "profiles": 9,
+      "union_size": 10,
+      "distance_to_union": {
+        "0": 1,
+        "1": 8
+      }
+    },
+    {
+      "label": "Dimorphic hemmorhoids(piles)",
+      "profiles": 6,
+      "union_size": 5,
+      "distance_to_union": {
+        "0": 1,
+        "1": 5
+      }
+    },
+    {
+      "label": "Drug Reaction",
+      "profiles": 6,
+      "union_size": 5,
+      "distance_to_union": {
+        "0": 1,
+        "1": 5
+      }
+    },
+    {
+      "label": "Fungal infection",
+      "profiles": 5,
+      "union_size": 4,
+      "distance_to_union": {
+        "0": 1,
+        "1": 4
+      }
+    },
+    {
+      "label": "GERD",
+      "profiles": 7,
+      "union_size": 6,
+      "distance_to_union": {
+        "0": 1,
+        "1": 6
+      }
+    },
+    {
+      "label": "Gastroenteritis",
+      "profiles": 5,
+      "union_size": 4,
+      "distance_to_union": {
+        "0": 1,
+        "1": 4
+      }
+    },
+    {
+      "label": "Heart attack",
+      "profiles": 5,
+      "union_size": 4,
+      "distance_to_union": {
+        "0": 1,
+        "1": 4
+      }
+    },
+    {
+      "label": "Hepatitis B",
+      "profiles": 9,
+      "union_size": 12,
+      "distance_to_union": {
+        "0": 1,
+        "1": 8
+      }
+    },
+    {
+      "label": "Hepatitis C",
+      "profiles": 7,
+      "union_size": 6,
+      "distance_to_union": {
+        "0": 1,
+        "1": 6
+      }
+    },
+    {
+      "label": "Hepatitis D",
+      "profiles": 10,
+      "union_size": 9,
+      "distance_to_union": {
+        "0": 1,
+        "1": 9
+      }
+    },
+    {
+      "label": "Hepatitis E",
+      "profiles": 9,
+      "union_size": 13,
+      "distance_to_union": {
+        "0": 1,
+        "1": 8
+      }
+    },
+    {
+      "label": "Hypertension",
+      "profiles": 6,
+      "union_size": 5,
+      "distance_to_union": {
+        "0": 1,
+        "1": 5
+      }
+    },
+    {
+      "label": "Hyperthyroidism",
+      "profiles": 9,
+      "union_size": 11,
+      "distance_to_union": {
+        "0": 1,
+        "1": 8
+      }
+    },
+    {
+      "label": "Hypoglycemia",
+      "profiles": 9,
+      "union_size": 12,
+      "distance_to_union": {
+        "0": 1,
+        "1": 8
+      }
+    },
+    {
+      "label": "Hypothyroidism",
+      "profiles": 8,
+      "union_size": 13,
+      "distance_to_union": {
+        "0": 1,
+        "1": 7
+      }
+    },
+    {
+      "label": "Impetigo",
+      "profiles": 6,
+      "union_size": 5,
+      "distance_to_union": {
+        "0": 1,
+        "1": 5
+      }
+    },
+    {
+      "label": "Jaundice",
+      "profiles": 9,
+      "union_size": 8,
+      "distance_to_union": {
+        "0": 1,
+        "1": 8
+      }
+    },
+    {
+      "label": "Malaria",
+      "profiles": 8,
+      "union_size": 8,
+      "distance_to_union": {
+        "0": 1,
+        "1": 7
+      }
+    },
+    {
+      "label": "Migraine",
+      "profiles": 10,
+      "union_size": 9,
+      "distance_to_union": {
+        "0": 1,
+        "1": 9
+      }
+    },
+    {
+      "label": "Osteoarthristis",
+      "profiles": 7,
+      "union_size": 6,
+      "distance_to_union": {
+        "0": 1,
+        "1": 6
+      }
+    },
+    {
+      "label": "Paralysis (brain hemorrhage)",
+      "profiles": 5,
+      "union_size": 4,
+      "distance_to_union": {
+        "0": 1,
+        "1": 4
+      }
+    },
+    {
+      "label": "Peptic ulcer diseae",
+      "profiles": 7,
+      "union_size": 6,
+      "distance_to_union": {
+        "0": 1,
+        "1": 6
+      }
+    },
+    {
+      "label": "Pneumonia",
+      "profiles": 9,
+      "union_size": 11,
+      "distance_to_union": {
+        "0": 1,
+        "1": 8
+      }
+    },
+    {
+      "label": "Psoriasis",
+      "profiles": 7,
+      "union_size": 6,
+      "distance_to_union": {
+        "0": 1,
+        "1": 6
+      }
+    },
+    {
+      "label": "Tuberculosis",
+      "profiles": 9,
+      "union_size": 16,
+      "distance_to_union": {
+        "0": 1,
+        "1": 8
+      }
+    },
+    {
+      "label": "Typhoid",
+      "profiles": 9,
+      "union_size": 11,
+      "distance_to_union": {
+        "0": 1,
+        "1": 8
+      }
+    },
+    {
+      "label": "Urinary tract infection",
+      "profiles": 5,
+      "union_size": 4,
+      "distance_to_union": {
+        "0": 1,
+        "1": 4
+      }
+    },
+    {
+      "label": "Varicose veins",
+      "profiles": 8,
+      "union_size": 7,
+      "distance_to_union": {
+        "0": 1,
+        "1": 7
+      }
+    },
+    {
+      "label": "hepatitis A",
+      "profiles": 9,
+      "union_size": 11,
+      "distance_to_union": {
+        "0": 1,
+        "1": 8
+      }
+    }
+  ],
+  "legacy_split": {
+    "train_rows": 3936,
+    "test_rows": 984,
+    "overlapping_test_rows": 984,
+    "distinct_test_profiles": 259,
+    "overlapping_distinct_test_profiles": 259,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "log_loss": 0.7859424764390432,
+    "top_label_ece_10": 0.5059915239595132
+  },
+  "components_by_hamming_radius": {
+    "1": {
+      "component_count": 41,
+      "largest": 10,
+      "mixed_label_components": 0,
+      "classes_confined_to_one_component": 41
+    },
+    "2": {
+      "component_count": 39,
+      "largest": 27,
+      "mixed_label_components": 1,
+      "classes_confined_to_one_component": 41
+    }
+  },
+  "near_neighbor_sensitivity": {
+    "1": {
+      "profiles": 304,
+      "represented_classes": 41,
+      "accuracy": {
+        "prior": 0.03289473684210526,
+        "jaccard": 1.0,
+        "bernoulli_nb": 0.9769736842105263,
+        "logistic": 1.0,
+        "tree": 0.4407894736842105,
+        "forest": 0.9967105263157895
+      }
+    },
+    "2": {
+      "profiles": 24,
+      "represented_classes": 24,
+      "accuracy": {
+        "prior": 0.041666666666666664,
+        "jaccard": 1.0,
+        "bernoulli_nb": 1.0,
+        "logistic": 1.0,
+        "tree": 0.4583333333333333,
+        "forest": 1.0
+      }
+    },
+    "3": {
+      "profiles": 0,
+      "represented_classes": 0,
+      "accuracy": {}
+    }
+  },
+  "robustness_draws_per_profile": 20,
+  "perturbation_collisions": {
+    "remove_1": {
+      "queries": 6080,
+      "equal_to_training_vector": 682,
+      "equal_to_training_vector_with_other_label": 0
+    },
+    "remove_2": {
+      "queries": 6080,
+      "equal_to_training_vector": 1,
+      "equal_to_training_vector_with_other_label": 1
+    },
+    "add_1": {
+      "queries": 6080,
+      "equal_to_training_vector": 38,
+      "equal_to_training_vector_with_other_label": 0
+    },
+    "add_2": {
+      "queries": 6080,
+      "equal_to_training_vector": 0,
+      "equal_to_training_vector_with_other_label": 0
+    },
+    "remove_1_add_1": {
+      "queries": 6080,
+      "equal_to_training_vector": 28,
+      "equal_to_training_vector_with_other_label": 0
+    },
+    "clean": {
+      "queries": 304,
+      "equal_to_training_vector": 0,
+      "equal_to_training_vector_with_other_label": 0
+    },
+    "rival_replace": {
+      "queries": 304,
+      "equal_to_training_vector": 0,
+      "equal_to_training_vector_with_other_label": 0
+    }
+  },
+  "models": {
+    "prior": {
+      "remove_1": {
+        "accuracy": 0.03289473684210526,
+        "macro_f1": 0.0015535187199005747,
+        "log_loss": 3.7046992148163005,
+        "top_label_ece_10": 4.4383372924117204e-07
+      },
+      "remove_2": {
+        "accuracy": 0.03289473684210526,
+        "macro_f1": 0.0015535187199005747,
+        "log_loss": 3.7046992148163005,
+        "top_label_ece_10": 4.4383372924117204e-07
+      },
+      "add_1": {
+        "accuracy": 0.03289473684210526,
+        "macro_f1": 0.0015535187199005747,
+        "log_loss": 3.7046992148163005,
+        "top_label_ece_10": 4.4383372924117204e-07
+      },
+      "add_2": {
+        "accuracy": 0.03289473684210526,
+        "macro_f1": 0.0015535187199005747,
+        "log_loss": 3.7046992148163005,
+        "top_label_ece_10": 4.4383372924117204e-07
+      },
+      "remove_1_add_1": {
+        "accuracy": 0.03289473684210526,
+        "macro_f1": 0.0015535187199005747,
+        "log_loss": 3.7046992148163005,
+        "top_label_ece_10": 4.4383372924117204e-07
+      },
+      "clean": {
+        "accuracy": 0.03289473684210526,
+        "macro_f1": 0.0015535187199005747,
+        "log_loss": 3.7046992148163005,
+        "top_label_ece_10": 4.4383372924117204e-07
+      },
+      "rival_replace": {
+        "accuracy": 0.03289473684210526,
+        "macro_f1": 0.0015535187199005747,
+        "log_loss": 3.7046992148163005,
+        "top_label_ece_10": 4.4383372924117204e-07
+      }
+    },
+    "jaccard": {
+      "remove_1": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "log_loss": 1.2555683948006808,
+        "top_label_ece_10": 0.6616742620321382
+      },
+      "remove_2": {
+        "accuracy": 0.984375,
+        "macro_f1": 0.9788418310934506,
+        "log_loss": 1.2652258876859432,
+        "top_label_ece_10": 0.6328722961006661
+      },
+      "add_1": {
+        "accuracy": 0.9998355263157894,
+        "macro_f1": 0.9998713085666671,
+        "log_loss": 1.3227040600044102,
+        "top_label_ece_10": 0.6984809802366574
+      },
+      "add_2": {
+        "accuracy": 0.9995065789473684,
+        "macro_f1": 0.9996054035339224,
+        "log_loss": 1.4165648070114756,
+        "top_label_ece_10": 0.730182080203403
+      },
+      "remove_1_add_1": {
+        "accuracy": 0.9981907894736842,
+        "macro_f1": 0.9976649563221462,
+        "log_loss": 1.3707032889542659,
+        "top_label_ece_10": 0.7074586689784423
+      },
+      "clean": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "log_loss": 1.2206983273647722,
+        "top_label_ece_10": 0.6587772396556922
+      },
+      "rival_replace": {
+        "accuracy": 0.9078947368421053,
+        "macro_f1": 0.8858445077957273,
+        "log_loss": 1.5493382943991694,
+        "top_label_ece_10": 0.6682105095130806
+      }
+    },
+    "bernoulli_nb": {
+      "remove_1": {
+        "accuracy": 0.9297697368421053,
+        "macro_f1": 0.9080496222227318,
+        "log_loss": 0.2311596360752436,
+        "top_label_ece_10": 0.0329895859915434
+      },
+      "remove_2": {
+        "accuracy": 0.8328947368421052,
+        "macro_f1": 0.7512364999884326,
+        "log_loss": 0.5193394163379,
+        "top_label_ece_10": 0.032265129095699514
+      },
+      "add_1": {
+        "accuracy": 0.9776315789473684,
+        "macro_f1": 0.9730959177988343,
+        "log_loss": 0.07825290122407971,
+        "top_label_ece_10": 0.022910175937635502
+      },
+      "add_2": {
+        "accuracy": 0.9726973684210526,
+        "macro_f1": 0.9665749850526592,
+        "log_loss": 0.07811586600035114,
+        "top_label_ece_10": 0.015360720039541151
+      },
+      "remove_1_add_1": {
+        "accuracy": 0.9143092105263158,
+        "macro_f1": 0.8849362876501994,
+        "log_loss": 0.2292584494810728,
+        "top_label_ece_10": 0.024637339780788737
+      },
+      "clean": {
+        "accuracy": 0.9769736842105263,
+        "macro_f1": 0.9723686205393525,
+        "log_loss": 0.07297962067243337,
+        "top_label_ece_10": 0.022799534786532655
+      },
+      "rival_replace": {
+        "accuracy": 0.7335526315789473,
+        "macro_f1": 0.6532629097852235,
+        "log_loss": 0.8675323586929062,
+        "top_label_ece_10": 0.15995928259251174
+      }
+    },
+    "logistic": {
+      "remove_1": {
+        "accuracy": 0.9962171052631579,
+        "macro_f1": 0.9969864088773858,
+        "log_loss": 0.5867309231884319,
+        "top_label_ece_10": 0.39617357708939
+      },
+      "remove_2": {
+        "accuracy": 0.9726973684210526,
+        "macro_f1": 0.9657106469251145,
+        "log_loss": 0.9743376151421985,
+        "top_label_ece_10": 0.5229610430560134
+      },
+      "add_1": {
+        "accuracy": 0.9993421052631579,
+        "macro_f1": 0.9992751271852659,
+        "log_loss": 0.3334096436908825,
+        "top_label_ece_10": 0.26278069858541847
+      },
+      "add_2": {
+        "accuracy": 0.9990131578947369,
+        "macro_f1": 0.9991445362263811,
+        "log_loss": 0.3496686106960633,
+        "top_label_ece_10": 0.272131377574347
+      },
+      "remove_1_add_1": {
+        "accuracy": 0.9924342105263158,
+        "macro_f1": 0.992197609818577,
+        "log_loss": 0.6096176915420247,
+        "top_label_ece_10": 0.4025648997294279
+      },
+      "clean": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "log_loss": 0.3164613971824449,
+        "top_label_ece_10": 0.2532861539251559
+      },
+      "rival_replace": {
+        "accuracy": 0.7894736842105263,
+        "macro_f1": 0.7605649158412884,
+        "log_loss": 0.8935048996623413,
+        "top_label_ece_10": 0.2926352289183342
+      }
+    },
+    "tree": {
+      "remove_1": {
+        "accuracy": 0.40328947368421053,
+        "macro_f1": 0.32267026206359173,
+        "log_loss": 5.719380873916492,
+        "top_label_ece_10": 0.05140756575931966
+      },
+      "remove_2": {
+        "accuracy": 0.3570723684210526,
+        "macro_f1": 0.2924465833513424,
+        "log_loss": 7.251376088367343,
+        "top_label_ece_10": 0.06866848595714507
+      },
+      "add_1": {
+        "accuracy": 0.4139802631578947,
+        "macro_f1": 0.3077701067059107,
+        "log_loss": 7.149826473230738,
+        "top_label_ece_10": 0.12058920394466187
+      },
+      "add_2": {
+        "accuracy": 0.38766447368421053,
+        "macro_f1": 0.2746356108844173,
+        "log_loss": 9.718765073362905,
+        "top_label_ece_10": 0.19755512225853397
+      },
+      "remove_1_add_1": {
+        "accuracy": 0.3768092105263158,
+        "macro_f1": 0.2824186420408209,
+        "log_loss": 8.697879338352148,
+        "top_label_ece_10": 0.1481601186835926
+      },
+      "clean": {
+        "accuracy": 0.4407894736842105,
+        "macro_f1": 0.3469175340303779,
+        "log_loss": 4.465560187901514,
+        "top_label_ece_10": 0.03278173257693233
+      },
+      "rival_replace": {
+        "accuracy": 0.2236842105263158,
+        "macro_f1": 0.18104668160243534,
+        "log_loss": 13.244632826866063,
+        "top_label_ece_10": 0.24049553627039738
+      }
+    },
+    "forest": {
+      "remove_1": {
+        "accuracy": 0.9833881578947369,
+        "macro_f1": 0.9790667374192445,
+        "log_loss": 0.9463924627103549,
+        "top_label_ece_10": 0.5213585800812528
+      },
+      "remove_2": {
+        "accuracy": 0.9401315789473684,
+        "macro_f1": 0.925506459952273,
+        "log_loss": 1.2099085795044644,
+        "top_label_ece_10": 0.560932621188765
+      },
+      "add_1": {
+        "accuracy": 0.9601973684210526,
+        "macro_f1": 0.9467337963532862,
+        "log_loss": 0.798669231017611,
+        "top_label_ece_10": 0.4397018707924027
+      },
+      "add_2": {
+        "accuracy": 0.9310855263157894,
+        "macro_f1": 0.9064661001156661,
+        "log_loss": 0.8657940084616846,
+        "top_label_ece_10": 0.43700653471300066
+      },
+      "remove_1_add_1": {
+        "accuracy": 0.9118421052631579,
+        "macro_f1": 0.8811539067464887,
+        "log_loss": 1.0183564226542443,
+        "top_label_ece_10": 0.4712199822263407
+      },
+      "clean": {
+        "accuracy": 0.9967105263157895,
+        "macro_f1": 0.9954138002918491,
+        "log_loss": 0.7310156229871133,
+        "top_label_ece_10": 0.44760615668157727
+      },
+      "rival_replace": {
+        "accuracy": 0.6875,
+        "macro_f1": 0.6339456658899005,
+        "log_loss": 1.2642476195963985,
+        "top_label_ece_10": 0.30323350842089447
+      }
+    }
+  },
+  "clean_accuracy_by_test_fold": {
+    "prior": [
+      0.03278688524590164,
+      0.03278688524590164,
+      0.03278688524590164,
+      0.03278688524590164,
+      0.03333333333333333
+    ],
+    "jaccard": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "bernoulli_nb": [
+      1.0,
+      0.9672131147540983,
+      1.0,
+      0.9508196721311475,
+      0.9666666666666667
+    ],
+    "logistic": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "tree": [
+      0.4262295081967213,
+      0.45901639344262296,
+      0.45901639344262296,
+      0.4098360655737705,
+      0.45
+    ],
+    "forest": [
+      0.9836065573770492,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "estimated_numeric_payload_bytes_by_test_fold": {
+    "prior": [
+      164,
+      164,
+      164,
+      164,
+      164
+    ],
+    "jaccard": [
+      697,
+      697,
+      697,
+      697,
+      697
+    ],
+    "bernoulli_nb": [
+      21648,
+      21648,
+      21648,
+      21648,
+      21648
+    ],
+    "logistic": [
+      21648,
+      21648,
+      21648,
+      21648,
+      21648
+    ],
+    "tree": [
+      3372,
+      3748,
+      3560,
+      2996,
+      3184
+    ],
+    "forest": [
+      321632,
+      322948,
+      316744,
+      315804,
+      328400
+    ]
+  },
+  "accuracy_excluding_training_vector_collisions": {
+    "prior": {
+      "remove_1": 0.034642460170433494,
+      "remove_2": 0.032900148050666225,
+      "add_1": 0.033101621979477,
+      "add_2": 0.03289473684210526,
+      "remove_1_add_1": 0.03271645736946464,
+      "clean": 0.03289473684210526,
+      "rival_replace": 0.03289473684210526
+    },
+    "jaccard": {
+      "remove_1": 1.0,
+      "remove_2": 0.9845369304161868,
+      "add_1": 0.9998344918901027,
+      "add_2": 0.9995065789473684,
+      "remove_1_add_1": 0.9981824190350297,
+      "clean": 1.0,
+      "rival_replace": 0.9078947368421053
+    },
+    "bernoulli_nb": {
+      "remove_1": 0.9251574657280475,
+      "remove_2": 0.8330317486428689,
+      "add_1": 0.9774908970539556,
+      "add_2": 0.9726973684210526,
+      "remove_1_add_1": 0.9139127561136814,
+      "clean": 0.9769736842105263,
+      "rival_replace": 0.7335526315789473
+    },
+    "logistic": {
+      "remove_1": 0.9957391626528344,
+      "remove_2": 0.9728573778582004,
+      "add_1": 0.9993379675604105,
+      "add_2": 0.9990131578947369,
+      "remove_1_add_1": 0.9923992068737607,
+      "clean": 1.0,
+      "rival_replace": 0.7894736842105263
+    },
+    "tree": {
+      "remove_1": 0.41015190811411634,
+      "remove_2": 0.3571311070899819,
+      "add_1": 0.4124462098642834,
+      "add_2": 0.38766447368421053,
+      "remove_1_add_1": 0.3767349636483807,
+      "clean": 0.4407894736842105,
+      "rival_replace": 0.2236842105263158
+    },
+    "forest": {
+      "remove_1": 0.9812893664320118,
+      "remove_2": 0.9402862312880408,
+      "add_1": 0.9599470374048328,
+      "add_2": 0.9310855263157894,
+      "remove_1_add_1": 0.9114342366159948,
+      "clean": 0.9967105263157895,
+      "rival_replace": 0.6875
+    }
+  },
+  "fidelity": {
+    "profiles": 304,
+    "profiles_with_both_groups": 1,
+    "mean_maximum_score_drop": 0.19051241439537347,
+    "mean_uniform_score_drop": 0.08737584635324011,
+    "mean_argmax_flip_fraction": 0.016419956140350876,
+    "additional_full_tree_traversals": 116250,
+    "additional_cached_tree_traversals": 15820,
+    "cached_score_max_absolute_error": 3.3306690738754696e-16,
+    "paired_mean_matched_drop": 0.11873521164825517,
+    "paired_mean_unmatched_drop": 0.0,
+    "matches": {
+      "deletions": 2324,
+      "positive": 2188,
+      "zero": 102,
+      "negative": 34
+    },
+    "nonmatches": {
+      "deletions": 1,
+      "positive": 0,
+      "zero": 1,
+      "negative": 0
+    }
+  }
+}
